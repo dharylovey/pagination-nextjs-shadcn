@@ -40,7 +40,7 @@ export default function ClientPagination() {
       setData(JSON.parse(storedData));
       setIsClient(true);
     } else {
-      const newData = Array.from({ length: 100 }, generateFakeData);
+      const newData = Array.from({ length: 104 }, generateFakeData);
       setData(newData);
       localStorage.setItem("fakeData", JSON.stringify(newData));
       setIsClient(true);
