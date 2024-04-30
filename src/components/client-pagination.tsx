@@ -108,7 +108,7 @@ const PaginationSection = ({
     let totalPages = Math.ceil(totalItems / itemPerPage);
     
     // Define the range size and calculate the start and end points
-    const rangeSize = 5;
+    const rangeSize = 4;
     let start = currenPage - Math.floor(rangeSize / 2);
     start = Math.max(start, 1);
     let end = start + rangeSize - 1;
